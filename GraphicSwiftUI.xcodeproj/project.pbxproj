@@ -11,6 +11,7 @@
 		28D064D62843EEB9009F868F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064D52843EEB9009F868F /* ContentView.swift */; };
 		28D064D82843EEBB009F868F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D064D72843EEBB009F868F /* Assets.xcassets */; };
 		28D064DB2843EEBB009F868F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D064DA2843EEBB009F868F /* Preview Assets.xcassets */; };
+		28D064E22843EF19009F868F /* HalfOfMuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064E12843EF19009F868F /* HalfOfMuzzle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		28D064D52843EEB9009F868F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28D064D72843EEBB009F868F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D064DA2843EEBB009F868F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28D064E12843EF19009F868F /* HalfOfMuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfOfMuzzle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				28D064D32843EEB9009F868F /* GraphicSwiftUIApp.swift */,
 				28D064D52843EEB9009F868F /* ContentView.swift */,
+				28D064E12843EF19009F868F /* HalfOfMuzzle.swift */,
 				28D064D72843EEBB009F868F /* Assets.xcassets */,
 				28D064D92843EEBB009F868F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D064E22843EF19009F868F /* HalfOfMuzzle.swift in Sources */,
 				28D064D62843EEB9009F868F /* ContentView.swift in Sources */,
 				28D064D42843EEB9009F868F /* GraphicSwiftUIApp.swift in Sources */,
 			);
