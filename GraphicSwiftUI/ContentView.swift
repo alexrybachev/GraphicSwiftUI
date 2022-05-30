@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HStack(spacing: 0) {
+            HalfView(heightOfFrame: 400)
+                .scaleEffect(CGSize(width: -1, height: 1))
+            HalfView(heightOfFrame: 400)
+        }
     }
 }
 
