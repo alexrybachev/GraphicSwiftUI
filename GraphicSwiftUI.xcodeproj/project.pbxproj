@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2865059D28452AF0003D7287 /* NoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865059C28452AF0003D7287 /* NoseView.swift */; };
+		2865059F28452E6E003D7287 /* EyesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865059E28452E6E003D7287 /* EyesView.swift */; };
+		286505A128453495003D7287 /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A028453495003D7287 /* HeadView.swift */; };
+		286505A3284537A0003D7287 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A2284537A0003D7287 /* BackgroundView.swift */; };
+		286505A528453885003D7287 /* EarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A428453885003D7287 /* EarView.swift */; };
+		286505A728453C3F003D7287 /* EyeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A628453C3F003D7287 /* EyeAreaView.swift */; };
+		286505A9284546DF003D7287 /* MuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A8284546DF003D7287 /* MuzzleView.swift */; };
 		28D064D42843EEB9009F868F /* GraphicSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064D32843EEB9009F868F /* GraphicSwiftUIApp.swift */; };
 		28D064D62843EEB9009F868F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064D52843EEB9009F868F /* ContentView.swift */; };
 		28D064D82843EEBB009F868F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D064D72843EEBB009F868F /* Assets.xcassets */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2865059C28452AF0003D7287 /* NoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoseView.swift; sourceTree = "<group>"; };
+		2865059E28452E6E003D7287 /* EyesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyesView.swift; sourceTree = "<group>"; };
+		286505A028453495003D7287 /* HeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
+		286505A2284537A0003D7287 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		286505A428453885003D7287 /* EarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarView.swift; sourceTree = "<group>"; };
+		286505A628453C3F003D7287 /* EyeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAreaView.swift; sourceTree = "<group>"; };
+		286505A8284546DF003D7287 /* MuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzzleView.swift; sourceTree = "<group>"; };
 		28D064D02843EEB9009F868F /* GraphicSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D064D32843EEB9009F868F /* GraphicSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicSwiftUIApp.swift; sourceTree = "<group>"; };
 		28D064D52843EEB9009F868F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +69,14 @@
 			children = (
 				28D064D32843EEB9009F868F /* GraphicSwiftUIApp.swift */,
 				28D064D52843EEB9009F868F /* ContentView.swift */,
+				286505A2284537A0003D7287 /* BackgroundView.swift */,
 				28D064E12843EF19009F868F /* HalfOfMuzzle.swift */,
+				286505A028453495003D7287 /* HeadView.swift */,
+				286505A8284546DF003D7287 /* MuzzleView.swift */,
+				286505A428453885003D7287 /* EarView.swift */,
+				286505A628453C3F003D7287 /* EyeAreaView.swift */,
+				2865059E28452E6E003D7287 /* EyesView.swift */,
+				2865059C28452AF0003D7287 /* NoseView.swift */,
 				28D064D72843EEBB009F868F /* Assets.xcassets */,
 				28D064D92843EEBB009F868F /* Preview Content */,
 			);
@@ -140,9 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286505A728453C3F003D7287 /* EyeAreaView.swift in Sources */,
+				286505A9284546DF003D7287 /* MuzzleView.swift in Sources */,
+				286505A3284537A0003D7287 /* BackgroundView.swift in Sources */,
 				28D064E22843EF19009F868F /* HalfOfMuzzle.swift in Sources */,
+				2865059D28452AF0003D7287 /* NoseView.swift in Sources */,
 				28D064D62843EEB9009F868F /* ContentView.swift in Sources */,
 				28D064D42843EEB9009F868F /* GraphicSwiftUIApp.swift in Sources */,
+				286505A128453495003D7287 /* HeadView.swift in Sources */,
+				2865059F28452E6E003D7287 /* EyesView.swift in Sources */,
+				286505A528453885003D7287 /* EarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
