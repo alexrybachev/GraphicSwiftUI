@@ -16,7 +16,7 @@ struct BackgroundView: View {
             
             let height = geometry.size.height
             let width = geometry.size.width
-            let midleHeight = height / 2
+
             
             Path { path in
                 path.move(to: CGPoint(x: 0, y: 0))
@@ -31,6 +31,30 @@ struct BackgroundView: View {
                 path.closeSubpath()
             }
             .fill(Color(UIColor(red: 244/255, green: 237/255, blue: 127/255, alpha: 1)))
+            
+            Path { path in
+                path.move(to: CGPoint(x: 0, y: 0))
+                path.addLine(to: CGPoint(x: 0, y: height * 0.856))
+                path.addLine(to: CGPoint(x: width * 0.290, y: height * 0.720))
+                path.addLine(to: CGPoint(x: width * 0.601, y: height * 0.572))
+                path.addLine(to: CGPoint(x: width * 0.829, y: 0))
+                path.closeSubpath()
+            }
+            .fill(Color(UIColor(red: 65/255, green: 64/255, blue: 40/255, alpha: 1)))
+            
+            Path { path in
+                path.move(to: CGPoint(x: 0, y: 0))
+                path.addLine(to: CGPoint(x: 0, y: height * 0.856))
+                path.addLine(to: CGPoint(x: width * 0.290, y: height * 0.720))
+                path.addLine(to: CGPoint(x: width * 0.601, y: height * 0.572))
+                path.addLine(to: CGPoint(x: width * 0.605, y: 0))
+                path.closeSubpath()
+            }
+            .fill(Color(UIColor(red: 59/255, green: 53/255, blue: 36/255, alpha: 1)))
+            
+            BodyView(heightOfFrame: heightOfFrame)
+            
+            HeadView(heightOfFrame: heightOfFrame)
             
         }
         .frame(width: heightOfFrame / 2, height: heightOfFrame)

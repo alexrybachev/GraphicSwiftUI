@@ -14,11 +14,12 @@
 		286505A528453885003D7287 /* EarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A428453885003D7287 /* EarView.swift */; };
 		286505A728453C3F003D7287 /* EyeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A628453C3F003D7287 /* EyeAreaView.swift */; };
 		286505A9284546DF003D7287 /* MuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286505A8284546DF003D7287 /* MuzzleView.swift */; };
+		288FBE66284556DF005B3BF8 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288FBE65284556DF005B3BF8 /* ShadowView.swift */; };
 		28D064D42843EEB9009F868F /* GraphicSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064D32843EEB9009F868F /* GraphicSwiftUIApp.swift */; };
 		28D064D62843EEB9009F868F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064D52843EEB9009F868F /* ContentView.swift */; };
 		28D064D82843EEBB009F868F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D064D72843EEBB009F868F /* Assets.xcassets */; };
 		28D064DB2843EEBB009F868F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D064DA2843EEBB009F868F /* Preview Assets.xcassets */; };
-		28D064E22843EF19009F868F /* HalfOfMuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064E12843EF19009F868F /* HalfOfMuzzle.swift */; };
+		28D064E22843EF19009F868F /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D064E12843EF19009F868F /* BodyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +30,13 @@
 		286505A428453885003D7287 /* EarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarView.swift; sourceTree = "<group>"; };
 		286505A628453C3F003D7287 /* EyeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAreaView.swift; sourceTree = "<group>"; };
 		286505A8284546DF003D7287 /* MuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzzleView.swift; sourceTree = "<group>"; };
+		288FBE65284556DF005B3BF8 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		28D064D02843EEB9009F868F /* GraphicSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D064D32843EEB9009F868F /* GraphicSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicSwiftUIApp.swift; sourceTree = "<group>"; };
 		28D064D52843EEB9009F868F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28D064D72843EEBB009F868F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D064DA2843EEBB009F868F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		28D064E12843EF19009F868F /* HalfOfMuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfOfMuzzle.swift; sourceTree = "<group>"; };
+		28D064E12843EF19009F868F /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,8 @@
 				28D064D32843EEB9009F868F /* GraphicSwiftUIApp.swift */,
 				28D064D52843EEB9009F868F /* ContentView.swift */,
 				286505A2284537A0003D7287 /* BackgroundView.swift */,
-				28D064E12843EF19009F868F /* HalfOfMuzzle.swift */,
+				28D064E12843EF19009F868F /* BodyView.swift */,
+				288FBE65284556DF005B3BF8 /* ShadowView.swift */,
 				286505A028453495003D7287 /* HeadView.swift */,
 				286505A8284546DF003D7287 /* MuzzleView.swift */,
 				286505A428453885003D7287 /* EarView.swift */,
@@ -162,9 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				286505A728453C3F003D7287 /* EyeAreaView.swift in Sources */,
+				288FBE66284556DF005B3BF8 /* ShadowView.swift in Sources */,
 				286505A9284546DF003D7287 /* MuzzleView.swift in Sources */,
 				286505A3284537A0003D7287 /* BackgroundView.swift in Sources */,
-				28D064E22843EF19009F868F /* HalfOfMuzzle.swift in Sources */,
+				28D064E22843EF19009F868F /* BodyView.swift in Sources */,
 				2865059D28452AF0003D7287 /* NoseView.swift in Sources */,
 				28D064D62843EEB9009F868F /* ContentView.swift in Sources */,
 				28D064D42843EEB9009F868F /* GraphicSwiftUIApp.swift in Sources */,
