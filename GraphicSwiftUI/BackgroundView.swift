@@ -16,7 +16,6 @@ struct BackgroundView: View {
             
             let height = geometry.size.height
             let width = geometry.size.width
-
             
             Path { path in
                 path.move(to: CGPoint(x: 0, y: 0))
@@ -31,6 +30,14 @@ struct BackgroundView: View {
                 path.closeSubpath()
             }
             .fill(Color(UIColor(red: 244/255, green: 237/255, blue: 127/255, alpha: 1)))
+            
+            Path { path in
+                path.move(to: CGPoint(x: width * 0.794, y: height * 0.109))
+                path.addLine(to: CGPoint(x: width, y: height * 0.026))
+                path.addLine(to: CGPoint(x: width, y: 0))
+                path.closeSubpath()
+            }
+            .fill(Color(UIColor(red: 129/255, green: 82/255, blue: 39/255, alpha: 1)))
             
             Path { path in
                 path.move(to: CGPoint(x: 0, y: 0))
@@ -52,9 +59,22 @@ struct BackgroundView: View {
             }
             .fill(Color(UIColor(red: 59/255, green: 53/255, blue: 36/255, alpha: 1)))
             
-            BodyView(heightOfFrame: heightOfFrame)
+            Path { path in
+                path.move(to: CGPoint(x: 0, y: height * 0.856))
+                path.addLine(to: CGPoint(x: width * 0.601, y: height * 0.572))
+                path.addLine(to: CGPoint(x: 0, y: height * 0.572))
+                path.closeSubpath()
+            }
+            .fill(Color(UIColor(red: 43/255, green: 40/255, blue: 31/255, alpha: 1)))
             
-            HeadView(heightOfFrame: heightOfFrame)
+            Path { path in
+                path.move(to: CGPoint(x: 0, y: height * 0.1))
+                path.addLine(to: CGPoint(x: width * 0.601, y: height * 0.572))
+                path.addLine(to: CGPoint(x: width * 0.1, y: 0))
+                path.addLine(to: CGPoint(x: 0, y: 0))
+                path.closeSubpath()
+            }
+            .fill(Color(UIColor(red: 181/255, green: 161/255, blue: 58/255, alpha: 1)))
             
         }
         .frame(width: heightOfFrame / 2, height: heightOfFrame)

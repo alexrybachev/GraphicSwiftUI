@@ -99,8 +99,6 @@ struct BodyView: View {
             }
             .fill(Color(UIColor(red: 157/255, green: 139/255, blue: 50/255, alpha: 1)))
             
-            HeadView(heightOfFrame: heightOfFrame)
-            
         }
         .frame(width: heightOfFrame / 2, height: heightOfFrame)
     }
