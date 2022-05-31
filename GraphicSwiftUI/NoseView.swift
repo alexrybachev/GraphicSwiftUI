@@ -17,7 +17,6 @@ struct NoseView: View {
             let height = geometry.size.height
             let width = geometry.size.width
             
-            // MARK: - НОС
             Path { path in
                 path.move(to: CGPoint(x: 0, y: height * 0.476))
                 path.addLine(to: CGPoint(x: 0, y: height * 0.530))
