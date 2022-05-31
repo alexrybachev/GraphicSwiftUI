@@ -30,7 +30,6 @@ struct ContentView: View {
                         .rotation3DEffect(.degrees(degreesRight), axis: (x: 0, y: 1, z: 0), anchor: .leading)
                     
                 }
-                .frame(height: 300)
                 .transition(.customTransition)
             }
             
@@ -44,10 +43,13 @@ struct ContentView: View {
 
 extension ContentView {
     private func buttonAction() {
-        withAnimation {
-            showHalf.toggle()
-            degreesLeft = degreesLeft == 0 ? 180 : 0
-            degreesRight = degreesRight == 0 ? 180 : 0
+        showHalf.toggle()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+            withAnimation {
+                degreesLeft = degreesLeft == 0 ? 360 : 0
+                degreesRight = degreesRight == 0 ? 360 : 0
+            }
         }
     }
 }
@@ -66,6 +68,7 @@ extension AnyTransition {
             
         let removal = AnyTransition.scale
             .combined(with: .opacity)
+            .animation(.easeOut)
         
         return .asymmetric(insertion: insertion, removal: removal)
     }
